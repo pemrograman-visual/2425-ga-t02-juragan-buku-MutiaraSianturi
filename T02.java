@@ -43,7 +43,7 @@ public class T02 {
                 }
             }
         }
-        System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + tahunTerbit + "|" + pENERBIT + "|" + formatBuku + "|" + toFixed(hargaPembelian,2) + "|" + toFixed(minMargin,2) + "|" + stokBuku + "|" + toFixed(rating,2) + "|" + rate);
+        System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + tahunTerbit + "|" + pENERBIT + "|" + formatBuku + "|" + toFixed(hargaPembelian,2) + "|" + toFixed(minMargin,2) + "|" + stokBuku + "|" + toFixed(rating,1) + "|" + rate);
     }
     
     private static String toFixed(double value, int digits) {

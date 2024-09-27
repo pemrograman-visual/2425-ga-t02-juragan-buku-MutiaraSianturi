@@ -4,10 +4,11 @@
         <attribute name="name" value="T02"/>
         <attribute name="authors" value="ASUS"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-27 11:24:05 AM"/>
+        <attribute name="saved" value="2024-09-27 11:37:01 AM"/>
         <attribute name="created" value="QVNVUztLQUxFSDsyMDI0LTA5LTI3OzEwOjEwOjI1IEFNOzE5Mzc="/>
         <attribute name="edited" value="QVNVUztLQUxFSDsyMDI0LTA5LTI3OzEwOjEwOjI4IEFNOzE7QVNVUztLQUxFSDsyMDI0LTA5LTA2OzEwOjA4OjUwIEFNO1QwMS5mcHJnOzQ3NjM="/>
         <attribute name="edited" value="QVNVUztLQUxFSDsyMDI0LTA5LTI3OzExOjI0OjA1IEFNOzI7MjA1MA=="/>
+        <attribute name="edited" value="QUNFUjtNWUhTWkU7MjAyNC0wOS0yNzsxMTozNzowMSBBTTsxOzIxMzk="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -61,7 +62,7 @@
                     </if>
                 </else>
             </if>
-            <output expression="ISBN&amp;&quot;|&quot;&amp;JUDUL&amp;&quot;|&quot;&amp;PENULIS&amp;&quot;|&quot;&amp;TahunTerbit&amp;&quot;|&quot;&amp;PENERBIT&amp;&quot;|&quot;&amp;FormatBuku&amp;&quot;|&quot;&amp;tofixed(HargaPembelian,2)&amp;&quot;|&quot;&amp;tofixed(MinMargin,2)&amp;&quot;|&quot;&amp;StokBuku&amp;&quot;|&quot;&amp;tofixed(Rating,2)&amp;&quot;|&quot;&amp;rate" newline="True"/>
+            <output expression="ISBN&amp;&quot;|&quot;&amp;JUDUL&amp;&quot;|&quot;&amp;PENULIS&amp;&quot;|&quot;&amp;TahunTerbit&amp;&quot;|&quot;&amp;PENERBIT&amp;&quot;|&quot;&amp;FormatBuku&amp;&quot;|&quot;&amp;tofixed(HargaPembelian,2)&amp;&quot;|&quot;&amp;tofixed(MinMargin,2)&amp;&quot;|&quot;&amp;StokBuku&amp;&quot;|&quot;&amp;tofixed(Rating,1)&amp;&quot;|&quot;&amp;rate" newline="True"/>
         </body>
     </function>
 </flowgorithm>
