@@ -28,7 +28,6 @@ Menno Henselmans
 ---
 no
 35.98
-1.11
 41
 5.0
 
