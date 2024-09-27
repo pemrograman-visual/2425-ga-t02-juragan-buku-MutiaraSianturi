@@ -1,14 +1,14 @@
 // 12S224003 - Michael Nasution
 // 12S24045 - MUtiara Sianturi
  
-import java.util.*;
+ import java.util.*;
 import java.lang.Math;
 
-public class T02 {
+public class JavaApplication {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        String iSBN, jUDUL, pENULIS, pENERBIT, rate, formatBuku;
+        String iSBN, jUDUL, pENULIS, pENERBIT, formatBuku, rate;
         int tahunTerbit, stokBuku;
         double hargaPembelian, minMargin, rating;
 
@@ -17,6 +17,7 @@ public class T02 {
         pENULIS = input.nextLine();
         tahunTerbit = Integer.parseInt(input.nextLine());
         pENERBIT = input.nextLine();
+        formatBuku = input.nextLine();
         hargaPembelian = Double.parseDouble(input.nextLine());
         minMargin = Double.parseDouble(input.nextLine());
         stokBuku = Integer.parseInt(input.nextLine());
@@ -42,6 +43,10 @@ public class T02 {
                 }
             }
         }
-        System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + tahunTerbit + "|" + pENERBIT + "|" + formatBuku + "|" + hargaPembelian + "|" + minMargin + "|" + stokBuku + "|" + rating + "|" + rate);
+        System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + tahunTerbit + "|" + pENERBIT + "|" + formatBuku + "|" + toFixed(hargaPembelian,2) + "|" + toFixed(minMargin,2) + "|" + stokBuku + "|" + toFixed(rating,2) + "|" + rate);
+    }
+    
+    private static String toFixed(double value, int digits) {
+        return String.format("%." + digits + "f", value);
     }
 }
